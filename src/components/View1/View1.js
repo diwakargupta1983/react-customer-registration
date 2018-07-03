@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import MenuAppBar from './App-bar/MenuAppBar';
-import './Header.css';
 
 class Header extends Component {
 
@@ -9,14 +7,10 @@ class Header extends Component {
 	render() {
 		return (
 			<div>
-				<MenuAppBar />
+				<h2>View 1</h2>
 			</div>
 		);
 	}
-
-	componentDidMount() {
-    console.log(this);
-  };
 	
 }
 

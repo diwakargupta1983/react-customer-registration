@@ -1,0 +1,9 @@
+.topNavigation ul li {
+	list-style-type: none;
+	display: inline;
+	margin-right: 10px;
+}
+.topNavigation ul li a {
+	color: #fff;
+	padding: 22px;
+}
